@@ -1,0 +1,6 @@
+{
+  "name": "validator",
+  "main": "index.d.ts",
+  "version": "4.5.1",
+  "dependencies": {}
+}

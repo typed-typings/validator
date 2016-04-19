@@ -1,0 +1,23 @@
+{
+  "name": "typed-validator",
+  "private": true,
+  "scripts": {
+    "postinstall": "typings install",
+    "build": "tsc -p . && typings bundle -o dist",
+    "test": "tsc -p test",
+    "build+test": "npm run build && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typed-typings/npm-validator.git"
+  },
+  "author": "Louay Alakkad <louay@alakkad.me>",
+  "bugs": {
+    "url": "https://github.com/typed-typings/npm-validator/issues"
+  },
+  "homepage": "https://github.com/typed-typings/npm-validator#readme",
+  "devDependencies": {
+    "typescript": "^1.8.10",
+    "typings": "^0.7.12"
+  }
+}

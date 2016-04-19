@@ -1,0 +1,6 @@
+*.log
+*.js
+
+node_modules/
+dist/
+typings/
