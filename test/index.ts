@@ -111,6 +111,7 @@ let any: any;
 
   result = validator.isUUID('sample');
   result = validator.isUUID('sample', 5);
+  result = validator.isUUID('sample', 'all');
 
   result = validator.isUppercase('sample');
 

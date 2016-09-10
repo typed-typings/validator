@@ -135,8 +135,8 @@ declare namespace validator {
     // check if the string is an URL.
     isURL(str: string, options?: IsURLOptions): boolean;
 
-    // check if the string is a UUID (version 3, 4 or 5).
-    isUUID(str: string, version?: number): boolean;
+    // check if the string is a UUID. Must be one of ['3', '4', '5', 'all'], default is all.
+    isUUID(str: string, version?: string|number): boolean;
 
     // check if the string is uppercase.
     isUppercase(str: string): boolean;
