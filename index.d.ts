@@ -148,7 +148,7 @@ declare namespace validator {
     isWhitelisted(str: string, chars: string|string[]): boolean;
 
     // check if string matches the pattern.
-    matches(str: string, pattern: any, modifiers?: string): boolean;
+    matches(str: string, pattern: RegExp|string, modifiers?: string): boolean;
 
     /**************
      * Sanitizers *
