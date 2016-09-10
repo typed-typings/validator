@@ -1,6 +1,9 @@
-# Typed Validator [![Build Status](https://travis-ci.org/typed-typings/npm-validator.svg?branch=master)](https://travis-ci.org/typed-typings/npm-validator)
+# Typed Validator [![Build Status][travis-image]][travis-url] 
 
-The type definition for [validator](https://github.com/chriso/validator.js).
+Type definitions for [validator](https://github.com/chriso/validator.js).
 
 # LICENSE
 MIT
+
+[travis-url]: https://travis-ci.org/types/npm-validator/
+[travis-image]: http://img.shields.io/travis/types/npm-validator.svg
