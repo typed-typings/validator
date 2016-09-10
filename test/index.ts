@@ -14,7 +14,7 @@ let any: any;
   result = validator.equals('sample', 'sample');
 
   result = validator.isAfter('sample');
-  result = validator.isAfter('sample', new Date());
+  result = validator.isAfter('sample', new Date().toString());
 
   result = validator.isAlpha('sample');
 

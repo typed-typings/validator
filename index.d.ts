@@ -16,7 +16,7 @@ declare namespace validator {
     equals(str: string, comparison: any): boolean;
 
     // check if the string is a date that's after the specified date (defaults to now).
-    isAfter(str: string, date?: Date): boolean;
+    isAfter(str: string, date?: string): boolean;
 
     // check if the string contains only letters (a-zA-Z).
     isAlpha(str: string): boolean;
