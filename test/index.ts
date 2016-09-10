@@ -95,6 +95,8 @@ let any: any;
 
   result = validator.isMACAddress('sample');
 
+  result = validator.isMD5('sample');
+
   result = validator.isMobilePhone('sample', 'en-US');
 
   result = validator.isMongoId('sample');

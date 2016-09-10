@@ -112,6 +112,9 @@ declare namespace validator {
     // check if the string is a MAC address.
     isMACAddress(str: string): boolean;
 
+    // check if the string is a MD5 hash.
+    isMD5(str: string): boolean;
+
     // check if the string is a mobile phone number, (locale is one of
     // ['ar-DZ', 'ar-SA', 'ar-SY', 'cs-CZ', 'de-DE', 'da-DK', 'el-GR', 'en-AU', 'en-GB', 'en-HK',
     // 'en-IN', 'en-NZ', 'en-US', 'en-CA', 'en-ZA', 'en-ZM', 'es-ES', 'fi-FI', 'fr-FR', 'hu-HU',
