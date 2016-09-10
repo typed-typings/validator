@@ -40,6 +40,8 @@ let any: any;
   result = validator.isCurrency('sample');
   result = validator.isCurrency('sample', isCurrencyOptions);
 
+  result = validator.isDataURI('sample');
+
   result = validator.isDate('sample');
 
   result = validator.isDecimal('sample');

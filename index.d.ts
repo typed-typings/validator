@@ -46,6 +46,9 @@ declare namespace validator {
     // check if the string is a valid currency amount.
     isCurrency(str: string, options?: IsCurrencyOptions): boolean;
 
+    // check if the string is a data uri format (https://developer.mozilla.org/en-US/docs/Web/HTTP/data_URIs)
+    isDataURI(str: string): boolean;
+
     // check if the string is a date.
     isDate(str: string): boolean;
 
