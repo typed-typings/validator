@@ -109,8 +109,11 @@ declare namespace validator {
     // check if the string is a MAC address.
     isMACAddress(str: string): boolean;
 
-    // check if the string is a mobile phone number, (locale is one of ['zh-CN', 'zh-TW', 'en-ZA', 'en-AU', 'en-HK',
-    // 'pt-PT', 'fr-FR', 'el-GR', 'en-GB', 'en-US', 'en-ZM', 'ru-RU', 'nb-NO', 'nn-NO', 'vi-VN', 'en-NZ', 'en-IN']).
+    // check if the string is a mobile phone number, (locale is one of
+    // ['ar-DZ', 'ar-SA', 'ar-SY', 'cs-CZ', 'de-DE', 'da-DK', 'el-GR', 'en-AU', 'en-GB', 'en-HK',
+    // 'en-IN', 'en-NZ', 'en-US', 'en-CA', 'en-ZA', 'en-ZM', 'es-ES', 'fi-FI', 'fr-FR', 'hu-HU',
+    // 'it-IT', 'ja-JP', 'ms-MY', 'nb-NO', 'nn-NO', 'pl-PL', 'pt-PT', 'ru-RU', 'sr-RS', 'tr-TR',
+    // 'vi-VN', 'zh-CN', 'zh-TW']).
     isMobilePhone(str: string, locale: string): boolean;
 
     // check if the string is a valid hex-encoded representation of a MongoDB ObjectId
