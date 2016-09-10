@@ -31,7 +31,7 @@ declare namespace validator {
     isBase64(str: string): boolean;
 
     // check if the string is a date that's before the specified date.
-    isBefore(str: string, date?: Date): boolean;
+    isBefore(str: string, date?: string): boolean;
 
     // check if a string is a boolean.
     isBoolean(str: string): boolean;

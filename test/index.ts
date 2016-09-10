@@ -25,7 +25,7 @@ let any: any;
   result = validator.isBase64('sample');
 
   result = validator.isBefore('sample');
-  result = validator.isBefore('sample', new Date());
+  result = validator.isBefore('sample', new Date().toString());
 
   result = validator.isBoolean('sample');
 
