@@ -167,6 +167,9 @@ declare namespace validator {
     // replace <, >, &, ', " and / with HTML entities.
     escape(input: string): string;
 
+    // replaces HTML encoded entities with <, >, &, ', " and /.
+    unescape(input: string): string;
+
     // trim characters from the left-side of the input.
     ltrim(input: any, chars?: string): string;
 

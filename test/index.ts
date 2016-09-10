@@ -139,6 +139,8 @@ let any: any;
 
   result = validator.escape('sample');
 
+  result = validator.unescape('sample');
+
   result = validator.ltrim('sample');
   result = validator.ltrim('sample', ' ');
 
