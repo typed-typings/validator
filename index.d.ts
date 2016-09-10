@@ -187,9 +187,6 @@ declare namespace validator {
     // convert the input to an integer, or NaN if the input is not an integer.
     toInt(input: any, radix?: number): number; // number or NaN
 
-    // convert the input to a string.
-    toString(input: any): string;
-
     // trim characters (whitespace by default) from both sides of the input.
     trim(input: any, chars?: string): string;
 

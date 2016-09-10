@@ -174,8 +174,6 @@ let any: any;
 {
   let result: string;
 
-  result = validator.toString(any);
-
   result = validator.trim('sample');
   result = validator.trim('sample', ' ');
 
