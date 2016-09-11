@@ -271,10 +271,11 @@ declare namespace validator {
     protocols?: string[];
     require_tld?: boolean;
     require_protocol?: boolean;
+    require_host: boolean;
     require_valid_protocol?: boolean;
     allow_underscores?: boolean;
-    host_whitelist?: boolean;
-    host_blacklist?: boolean;
+    host_whitelist?: (string|RegExp)[];
+    host_blacklist?: (string|RegExp)[];
     allow_trailing_dot?: boolean;
     allow_protocol_relative_urls?: boolean;
   }
