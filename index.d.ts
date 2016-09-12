@@ -1,13 +1,13 @@
-// Type definitions for validator.js v4.5.1
+// Type definitions for validator.js v5.7.0
 // Project: https://github.com/chriso/validator.js
-// Definitions by: tgfjt <https://github.com/tgfjt>, Ilya Mochalov <https://github.com/chrootsu>
+// Definitions by: tgfjt <https://github.com/tgfjt>, Ilya Mochalov <https://github.com/chrootsu>, Ayman Nedjmeddine <https://github.com/IOAyman>, Louy Alakkad <https://github.com/louy>
 
 declare namespace validator {
   interface ValidatorStatic {
 
-    /**************
-     * Validators *
-     **************/
+    // **************
+    // * Validators *
+    // **************
 
     // check if the string contains the seed.
     contains(str: string, elem: any): boolean;
@@ -156,9 +156,9 @@ declare namespace validator {
     // check if string matches the pattern.
     matches(str: string, pattern: RegExp|string, modifiers?: string): boolean;
 
-    /**************
-     * Sanitizers *
-     **************/
+    // **************
+    // * Sanitizers *
+    // **************
 
     // remove characters that appear in the blacklist. The characters are used in a RegExp and so you will need
     // to escape some chars, e.g. blacklist(input, '\\[\\]').
@@ -203,9 +203,9 @@ declare namespace validator {
     // need to escape some chars, e.g. whitelist(input, '\\[\\]').
     whitelist(input: string, chars: string): string;
 
-    /**************
-     * Extensions *
-     **************/
+    // **************
+    // * Extensions *
+    // **************
 
     // add your own validators.
     // Note: that the first argument will be automatically coerced to a string.

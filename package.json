@@ -5,7 +5,8 @@
     "postinstall": "typings install",
     "build": "tsc -p . && typings bundle -o dist/main.d.ts",
     "test": "tsc -p test",
-    "build+test": "npm run build && npm run test"
+    "build+test": "npm run build && npm run test",
+    "lint": "tslint -t stylish ./{,test}/*.ts"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/typed-typings/npm-validator#readme",
   "devDependencies": {
+    "tslint": "^3.15.1",
+    "tslint-config-typings": "^0.2.4",
     "typescript": "^1.8.10",
     "typings": "^1.3.3"
   }

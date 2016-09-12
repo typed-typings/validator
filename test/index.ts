@@ -2,9 +2,9 @@ import * as validator from 'validator';
 
 let any: any;
 
-/**************
- * Validators *
- **************/
+// **************
+// * Validators *
+// **************
 
 {
   let result: boolean;
@@ -128,9 +128,9 @@ let any: any;
   result = validator.matches('foobar', 'foo', 'i');
 }
 
-/**************
- * Sanitizers *
- **************/
+// **************
+// * Sanitizers *
+// **************
 
 {
   let result: string;
@@ -186,8 +186,8 @@ let any: any;
   result = validator.whitelist('sample', 'abc');
 }
 
-/**************
- * Extensions *
- **************/
+// **************
+// * Extensions *
+// **************
 
 validator.extend<(str: string, options: {}) => boolean>('isTest', (str: any, options: {}) => !str);
