@@ -1,5 +1,5 @@
 {
-  "name": "typed-validator",
+  "name": "@types/validator",
   "private": true,
   "scripts": {
     "postinstall": "typings install",
@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/typed-typings/npm-validator.git"
+    "url": "git+https://github.com/types/npm-validator.git"
   },
   "author": "Louay Alakkad <louay@alakkad.me>",
   "bugs": {
-    "url": "https://github.com/typed-typings/npm-validator/issues"
+    "url": "https://github.com/types/npm-validator/issues"
   },
-  "homepage": "https://github.com/typed-typings/npm-validator#readme",
+  "homepage": "https://github.com/types/npm-validator#readme",
   "devDependencies": {
     "tslint": "^3.15.1",
     "tslint-config-typings": "^0.2.4",
