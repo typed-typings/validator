@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/types/npm-validator.git"
+    "url": "git+https://github.com/types/validator.git"
   },
   "author": "Louay Alakkad <louay@alakkad.me>",
   "bugs": {
-    "url": "https://github.com/types/npm-validator/issues"
+    "url": "https://github.com/types/validator/issues"
   },
-  "homepage": "https://github.com/types/npm-validator#readme",
+  "homepage": "https://github.com/types/validator#readme",
   "devDependencies": {
     "tslint": "^5.2.0",
     "tslint-config-typings": "^0.3.1",
