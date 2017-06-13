@@ -1,5 +1,6 @@
 {
   "name": "@types/validator",
+  "version": "5.7.0",
   "private": true,
   "scripts": {
     "postinstall": "typings install",
