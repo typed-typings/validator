@@ -1,4 +1,4 @@
-// Type definitions for validator.js v5.7.0
+// Type definitions for validator.js v7.0.0
 // Project: https://github.com/chriso/validator.js
 // Definitions by: tgfjt <https://github.com/tgfjt>, Ilya Mochalov <https://github.com/chrootsu>, Ayman Nedjmeddine <https://github.com/IOAyman>, Louy Alakkad <https://github.com/louy>
 
@@ -54,9 +54,6 @@ declare namespace validator {
 
     // check if the string is a data uri format (https://developer.mozilla.org/en-US/docs/Web/HTTP/data_URIs)
     isDataURI(str: string): boolean;
-
-    // check if the string is a date.
-    isDate(str: string): boolean;
 
     // check if the string represents a decimal number, such as 0.1, .3, 1.1, 1.00003, 4.0, etc.
     isDecimal(str: string): boolean;
@@ -136,7 +133,7 @@ declare namespace validator {
     isMultibyte(str: string): boolean;
 
     // check if the string is null.
-    isNull(str: string): boolean;
+    isEmpty(str: string): boolean;
 
     // check if the string contains only numbers.
     isNumeric(str: string): boolean;

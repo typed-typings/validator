@@ -44,8 +44,6 @@ let any: any;
 
   result = validator.isDataURI('sample');
 
-  result = validator.isDate('sample');
-
   result = validator.isDecimal('sample');
 
   result = validator.isDivisibleBy('sample', 2);
@@ -105,7 +103,7 @@ let any: any;
 
   result = validator.isMultibyte('sample');
 
-  result = validator.isNull('sample');
+  result = validator.isEmpty('sample');
 
   result = validator.isNumeric('sample');
 
