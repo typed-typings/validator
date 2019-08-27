@@ -33,6 +33,9 @@ declare namespace validator {
     // check if the string contains ASCII chars only.
     isAscii(str: string): boolean;
 
+    // check if a string is base32 encoded.
+    isBase32(str: string): boolean;
+
     // check if a string is base64 encoded.
     isBase64(str: string): boolean;
 
@@ -54,6 +57,9 @@ declare namespace validator {
 
     // check if the string is a data uri format (https://developer.mozilla.org/en-US/docs/Web/HTTP/data_URIs)
     isDataURI(str: string): boolean;
+
+    // check if the string is a magnet uri format
+    isMagnetURI(str: string): boolean;
 
     // check if the string represents a decimal number, such as 0.1, .3, 1.1, 1.00003, 4.0, etc.
     isDecimal(str: string): boolean;
@@ -82,8 +88,15 @@ declare namespace validator {
     // check if the string is a hexadecimal number.
     isHexadecimal(str: string): boolean;
 
+    // check if the string is a valid identity card code.
+    // locale is one of ['ES', 'zh-TW', 'he-IL'] OR 'any'. If 'any' is used, function will check if any of the locals match.
+    isIdentityCard(str: string, locale: string): boolean;
+
     // check if the string is an IP (version 4 or 6).
     isIP(str: string, version?: number): boolean;
+
+    // check if the string is an IP Range (version 4 only).
+    isIPRange(str: string): boolean;
 
     // check if the string is an ISBN (version 10 or 13).
     isISBN(str: string, version?: number): boolean;
@@ -94,6 +107,9 @@ declare namespace validator {
 
     // check if the string is a valid ISO 8601 (https://en.wikipedia.org/wiki/ISO_8601) date.
     isISO8601(str: string): boolean;
+
+    // check if the string is a valid RFC 3339 date.
+    isRFC3339(str: string): boolean;
 
     // check if the string is in a array of allowed values.
     isIn(str: string, values: any[]): boolean;
